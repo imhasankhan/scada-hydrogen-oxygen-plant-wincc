@@ -90,4 +90,4 @@ Each frame included:
 ---
 
 ## Author
-Hasan
+Muhammad Hasan Khan
