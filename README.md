@@ -1,4 +1,7 @@
-# scada-hydrogen-oxygen-plant-wincc
+> Industrial SCADA portfolio project  
+> Role: SCADA / Automation Engineer  
+> Environment: Live production system (tested)
+
 SCADA redesign and implementation for Hydrogen &amp; Oxygen plant using Siemens WinCC
 # SCADA Design for Hydrogen & Oxygen Plant (Siemens WinCC)
 
