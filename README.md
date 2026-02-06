@@ -2,7 +2,6 @@
 > Role: SCADA / Automation Engineer  
 > Environment: Live production system (tested)
 
-SCADA redesign and implementation for Hydrogen &amp; Oxygen plant using Siemens WinCC
 # SCADA Design for Hydrogen & Oxygen Plant (Siemens WinCC)
 
 ## Overview
@@ -11,22 +10,22 @@ for a Hydrogen and Oxygen production plant at International Steels Limited (ISL)
 
 The objective was to overhaul an existing SCADA system, correct design and
 logic issues, and deliver a more realistic, operator-friendly, and maintainable
-system tailored to production requirements.
+solution tailored to the production team’s operational needs.
 
-> ⚠️ Note: Due to industrial confidentiality, source PLC programs and WinCC
-project files are not included. This repository serves as a technical portfolio
-and system documentation.
+> ⚠️ Due to industrial confidentiality, source PLC programs and WinCC project
+files are not included. This repository serves as a technical portfolio and
+system documentation.
 
 ---
 
 ## Project Duration
-- December 2022 – February 2024
+December 2022 – February 2024
 
 ---
 
 ## System Architecture
 - PLC Platform: Siemens S7-300
-- SCADA: Siemens WinCC
+- SCADA System: Siemens WinCC
 - Engineering Tool: SIMATIC STEP 7
 
 ---
@@ -42,42 +41,42 @@ and system documentation.
 - Trends
 
 ### 2. SCADA Frame Design
-The plant consists of two main frames:
-- Frame 1: Production & Purification
+The plant SCADA was structured into two main frames:
+- Frame 1: Production and Purification
 - Frame 2: Extended operations and system finalization
 
 Each frame included:
 - Realistic process graphics
-- Proper tag mapping
+- Structured tag mapping
 - Alarm visualization
 - Trend visualization
-- Parameter configuration pages
+- Parameter and configuration pages
 
 ### 3. Tag Management
-- Complete tag mapping between PLC and WinCC
-- Logical grouping of DI, DO, AI, AO
-- Tag assignment to respective screens
+- Complete mapping between PLC addresses and WinCC tags
+- Logical grouping of DI, DO, AI, and AO
+- Assignment of tags to corresponding screens, alarms, and trends
 
-### 4. Testing
-- All pages tested on live PLC system
+### 4. Testing and Validation
+- All SCADA pages tested on the live PLC system
 - Verification of alarms, trends, and operator actions
-- End-to-end validation with production team
+- End-to-end validation with the production team
 
 ---
 
 ## Screens Implemented
-- Alarm Pages
-- Production Overview
-- Purification Process
-- Trends
-- Parameters & Settings
+- Alarm pages
+- Production overview
+- Purification process
+- Trend visualization
+- Parameters and settings
 
 ---
 
 ## Project Status
 - SCADA system fully designed
-- Both frames tested on live system
-- Deployment pending final commissioning
+- Both frames tested on the live system
+- Final commissioning pending
 
 ---
 
@@ -87,7 +86,7 @@ Each frame included:
 - SIMATIC STEP 7
 - PLC Ladder Logic
 - Industrial SCADA Design
-- Alarm & Trend Engineering
+- Alarm and Trend Engineering
 - Project Planning
 
 ---
